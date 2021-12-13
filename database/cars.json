@@ -1,0 +1,23 @@
+[
+  {
+    "name": "LeBaron",
+    "id": "d2bf72d6-5f53-4a0e-9b7f-65981d53c7f0",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "name": "CX-9",
+    "id": "095d5ae3-d82d-4347-af05-b3c2640efcbc",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "name": "Element",
+    "id": "393cb251-492f-45b5-b6e4-2c3e2e85ef91",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  }
+]
