@@ -4,10 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "seed": "node ./seed"
+    "seed": "node ./seed",
+    "test": "npx mocha -w --parallel **/**/*.test.js",
+    "test:cov": "npx nyc npx mocha --parallel **/**/*.test.js"
   },
-  "devDependencies": {
+  "dependencies": {
+    "chai": "4",
     "faker": "^5.5.3",
+    "mocha": "8",
+    "nyc": "15",
+    "sinon": "9",
     "uuid": "^8.3.2"
   }
 }
